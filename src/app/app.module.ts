@@ -6,7 +6,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import '@abgov/web-components';
-import { AngularComponentsModule } from '@abgov/angular-components';
+import {
+  AngularComponentsModule,
+  GoabAppFooter,
+  GoabAppHeader,
+  GoabColumnLayout,
+  GoabMicrositeHeader
+} from '@abgov/angular-components';
 
 @NgModule({
   declarations: [
@@ -18,6 +24,10 @@ import { AngularComponentsModule } from '@abgov/angular-components';
     FormsModule,
     ReactiveFormsModule,
     AngularComponentsModule,
+    GoabColumnLayout,
+    GoabMicrositeHeader,
+    GoabAppHeader,
+    GoabAppFooter,
   ],
   providers: [],
   bootstrap: [AppComponent],
