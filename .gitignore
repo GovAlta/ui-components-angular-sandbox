@@ -40,3 +40,6 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Ignore the package-lock, so that it reinstalls everything from scratch everytime (for Stackblitz)
+package-lock.json
